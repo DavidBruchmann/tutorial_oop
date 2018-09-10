@@ -10,7 +10,10 @@ function loadClassesRecursive($folder = 'Classes', $excludes = array())
                 if (is_dir($currentPath)) {
                     loadClassesRecursive($currentPath, $excludes);
                 } else {
-                    if (is_file($currentPath) && strpos($currentPath,'.php') == strlen($currentPath)-4) {
+                    if (is_file($currentPath)
+                     && strpos($currentPath,'.php') == strlen($currentPath)-4
+                     && strpos($item, '_') !== 0
+                    ) {
                         require_once($currentPath);
                     }
                 }
@@ -19,7 +22,8 @@ function loadClassesRecursive($folder = 'Classes', $excludes = array())
     }
 }
 
+loadClassesRecursive('Classes');
 $excludes = array(
-    'Classes/Libs/smarty-3.1.32/demo',
+    '../vendor/smarty/demo',
 );
-loadClassesRecursive('Classes', $excludes);
+loadClassesRecursive('../vendor', $excludes);

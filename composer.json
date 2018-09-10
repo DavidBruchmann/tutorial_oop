@@ -1,0 +1,22 @@
+{
+    "name": "wdb/tutorial-oop",
+    "type": "library",
+    "description": "Your package description goes here",
+    "keywords": ["oop","mvc","tutorial"],
+    "homepage": "https://barlians.com",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "David Bruchmann",
+            "email": "david.bruchmann@gmail.com",
+            "homepage": "https://barlians.com",
+            "role": "Author, Developer"
+        }
+    ],
+    "support": {
+        "email": "david.bruchmann@gmail.com"
+    },
+    "require": {
+        "smarty/smarty": "~3.1"
+    }
+}
