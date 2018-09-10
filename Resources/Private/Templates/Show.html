@@ -1,0 +1,43 @@
+<div class="car-container"> 
+    {if $car} 
+        <table>
+            <tbody>
+                <tr>
+                    <th>uid</th>
+                    <td>{$car.uid}</td>
+                </tr>
+                <tr>
+                    <th>name</th>
+                    <td>{$car.name}</td>
+                </tr>
+                <tr>
+                    <th>wheels</th>
+                    <td>{$car.wheels}</td>
+                </tr>
+                <tr>
+                    <th>doors</th>
+                    <td>{$car.doors}</td>
+                </tr>
+                <tr>
+                    <th>lamps</th>
+                    <td>{$car.lamps}</td>
+                </tr>
+            </tbody>
+        <table>
+    {else}
+        <p>No car found with uid {$requestUid}.</p>
+    {/if} 
+    </div> 
+    <div class="pagebrowser">
+    {if $prev}
+        <span><a href="{$baseUrl}index.php?action=show&car={$prev.uid}">&lt;&lt; {$prev.name}</a></span>
+    {else}
+        <span></span>
+    {/if} 
+    {if $next}
+        <span><a href="{$baseUrl}index.php?action=show&car={$next.uid}">{$next.name} &gt;&gt;</a></span>
+    {else}
+        <span></span>
+    {/if} 
+    </div>
+    <div class="backLink"><a href="{$baseUrl}index.php?action=list">Back to list-view</a></div>

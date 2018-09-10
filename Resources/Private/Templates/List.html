@@ -1,0 +1,27 @@
+
+<div class="cars-container"> 
+    {if $cars} 
+        <table>
+            <thead>
+                <tr>
+                    <th>uid</th>
+                    <th>name</th>
+                    <th>wheels</th>
+                    <th>doors</th>
+                    <th>lamps</th>
+                </tr>
+            </thead>
+            <tbody>
+            {foreach $cars as $car} 
+                <tr>
+                    <td><a href="{$baseUrl}index.php?action=show&car={$car.uid}">{$car.uid}</a></td>
+                    <td><a href="{$baseUrl}index.php?action=show&car={$car.uid}">{$car.name}</a></td>
+                    <td><a href="{$baseUrl}index.php?action=show&car={$car.uid}">{$car.wheels}</a></td>
+                    <td><a href="{$baseUrl}index.php?action=show&car={$car.uid}">{$car.doors}</a></td>
+                    <td><a href="{$baseUrl}index.php?action=show&car={$car.uid}">{$car.lamps}</a></td>
+                <tr>
+            {/foreach} 
+            </tbody>
+        <table>
+    {/if} 
+    </div> 
