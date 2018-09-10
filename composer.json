@@ -21,7 +21,7 @@
     },
     "extra": {
         "installer-paths": {
-            "tutorial-oop": ["wdb/tutorial-oop", "vendor/package"]
+            "/tutorial-oop": ["wdb/tutorial-oop", "vendor/package"]
         }
     }
 }
