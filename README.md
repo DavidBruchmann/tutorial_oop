@@ -28,13 +28,13 @@ Installation:
 2) **by git**
 ---------
 git clone https://github.com/DavidBruchmann/tutorial_oop.git  
-Then refer to `including smarty in manual installation`
+Then refer to [including smarty in manual installation](https://github.com/DavidBruchmann/tutorial_oop#including-smarty-in-manual-installation) below.
 
 3) **by zipped release**
 --------------------
 Download the latest release from this page:  
 https://github.com/DavidBruchmann/tutorial_oop/releases  
-Then refer to `including smarty in manual installation`
+Then refer to [including smarty in manual installation](https://github.com/DavidBruchmann/tutorial_oop#including-smarty-in-manual-installation) below.
 
 Including smarty in manual installation
 ---------------------------------------
