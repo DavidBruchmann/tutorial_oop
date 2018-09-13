@@ -14,7 +14,7 @@ Nevertheless a general approach for an object-orientated template engine is part
 
 Installation:
 =============
-1) by composer
+1) **by composer**
   --------------
   To load the project including smarty with composer use
   ```
@@ -25,12 +25,12 @@ Installation:
   composer create-project -s dev wdb/tutorial-oop
   ```
 
-2) by git
+2) **by git**
 ---------
 git clone https://github.com/DavidBruchmann/tutorial_oop.git  
 Then refer to `including smarty in manual installation`
 
-3) by zipped release
+3) **by zipped release**
 --------------------
 Download the latest release from this page:  
 https://github.com/DavidBruchmann/tutorial_oop/releases  
