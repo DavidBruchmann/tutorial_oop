@@ -1,7 +1,7 @@
 {
     "name": "wdb/tutorial-oop",
     "type": "project",
-    "description": "Your package description goes here",
+    "description": "This tutorial includes projects to show MVC pattern (Model, View, Controller) as well as OOP (Object Orientated Programming) and usage of `smarty` as template engine.",
     "keywords": ["oop","mvc","tutorial"],
     "homepage": "https://barlians.com",
     "license": "GPL-3.0-or-later",
