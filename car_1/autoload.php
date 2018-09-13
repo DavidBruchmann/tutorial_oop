@@ -24,6 +24,6 @@ function loadClassesRecursive($folder = 'Classes', $excludes = array())
 
 loadClassesRecursive('Classes');
 $excludes = array(
-    '../vendor/smarty/demo',
+    '../vendor/smarty/smarty/demo',
 );
 loadClassesRecursive('../vendor', $excludes);
