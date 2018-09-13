@@ -16,11 +16,18 @@ Installation:
 =============
 1) by composer
 --------------
-@TODO
+To load the project including smarty with composer use
+```
+composer create-project wdb/tutorial-oop
+```
+If you want to install the master-branch instead of the latest release use
+```
+composer create-project -s dev wdb/tutorial-oop
+```
 
 2) by git
 ---------
-@TODO
+git clone https://github.com/DavidBruchmann/tutorial_oop.git
 
 3) by zipped release
 --------------------
