@@ -1,6 +1,6 @@
 {
     "name": "wdb/tutorial-oop",
-    "type": "library",
+    "type": "project",
     "description": "Your package description goes here",
     "keywords": ["oop","mvc","tutorial"],
     "homepage": "https://barlians.com",
@@ -19,9 +19,4 @@
     "require": {
         "smarty/smarty": "~3.1"
     },
-    "extra": {
-        "installer-paths": {
-            "/tutorial-oop": ["wdb/tutorial-oop", "vendor/package"]
-        }
-    }
 }
