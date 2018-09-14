@@ -42,3 +42,7 @@ in the downloaded project folder there has to be a folder `vendor/smarty/smarty`
 Without using composer the download and the arrangement of the structure has to be done manually.  
 
 Even with manual download you also still can use `composer install` to install only smarty by composer.
+
+For Support of tutorial and seminar
+===================================
+PayPal: ch19barlian@gmail.com
